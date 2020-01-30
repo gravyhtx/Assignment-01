@@ -1,0 +1,14 @@
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    float: right;
+    position: relative;
+}
